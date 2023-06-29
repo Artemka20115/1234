@@ -1,0 +1,689 @@
+﻿a { 
+text-decoration:none;
+}
+
+*{  
+   margin:0;  
+   padding:0;
+   border-radius: 20px;
+   text-align: center;  
+}  
+
+div
+{
+	text-align:center;
+}
+body 
+{
+	/*background-color:#fae8c0;*/
+	background-color:#4e4e4e;
+	color:#ffffff;
+}
+
+button
+{
+	background-color:#e7e7e7;
+	color:#440000; 
+}
+button:hover {
+	background: #1d49aa;
+}
+
+button:focus {
+	outline: none;
+	box-shadow: 0 0 0 4px #cbd6ee;
+}
+.blagosloven1{
+	position:absolute;
+	left:50px;
+	width: 200px;
+	top: 20px;
+	width: 280px; 
+	margin-left: 150px; 
+	text-align: left;
+}
+.blagosloven2{
+	position:absolute;
+	left:-350px;
+	width: 200px;
+	top: 20px;
+	width: 280px; 
+	margin-left: 150px; 
+	text-align: left;
+}
+.non {background-color: #e7e7e7;
+    color: #440000;
+	display:none;
+}
+input,select
+{
+	background-color:#bed0ff;
+}
+
+a img {border: none; }
+
+.pers_image
+{
+	position: absolute;
+	top: -15px;
+	left: 0px;
+	opacity: 1;
+	width: 100%;
+	height: 107%;
+	filter:alpha(opacity=13); /* For IE8 and earlier */
+}
+
+.pers
+{
+	width:242px;
+	height:362px;
+	position:absolute;
+	top:40px;
+}
+
+#pers1_body
+{
+	left:44px;
+	top:250px;
+}
+
+#pers2_body
+{
+	right:39px;
+	top:250px;
+}
+
+#parameters_div
+{
+	position:relative;
+	width:400px;
+	top:200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.pers_buttons
+{
+	position:absolute;
+	top:750px;
+}
+
+#pers2_buttons
+{
+	position:absolute;
+	left:800px;
+}
+
+#parameters_table
+{
+	width:100%;
+}
+
+#parameters_table tr
+{
+	height:22px;
+}
+
+#parameters_table td
+{
+	font-size: 10pt;
+	font-family: Arial, sans-serif;
+	border: 1px solid #d3d3d330;
+	text-align: center;
+}
+
+.user_parameter
+{
+	width:40px;
+}
+
+.body_parts
+{
+	position:absolute;
+	border:1px solid #976b5d;
+}
+
+.body_parts img
+{
+	cursor:pointer;
+}
+
+.kam
+{
+	position:absolute;
+	width:11px;
+	height:11px;
+	border:1px solid #976b5d;
+}
+
+.mod_left
+{
+	left:-13px;
+	top:-1px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zakl_left
+{
+	left:-13px;
+	top:13px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.mod_bottom_left
+{
+	left:-1px;
+	bottom:-13px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zakl_bottom_left
+{
+	left:13px;
+	bottom:-13px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.mod_left_bottom
+{
+	left:-13px;
+	bottom:13px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zakl_left_bottom
+{
+	left:-13px;
+	bottom:-1px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.mod_right
+{
+	right:-13px;
+	top:-1px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zakl_right
+{	
+	right:-13px;
+	top:13px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.mod_right_bottom
+{
+	right:-13px;
+	bottom:13px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zakl_right_bottom
+{	
+	right:-13px;
+	bottom:-1px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.mod_bottom
+{
+	left:-1px;
+	bottom:-13px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zakl_bottom
+{	
+	left:13px;
+	bottom:-13px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.mod_bottom_right
+{
+	right:13px;
+	bottom:-13px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zakl_bottom_right
+{	
+	right:-1px;
+	bottom:-13px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.mod_top
+{
+	left:-1px;
+	top:-13px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zakl_top
+{	
+	left:13px;
+	top:-13px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+
+.mod_top_right
+{
+	right:13px;
+	top:-13px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zakl_top_right
+{	
+	right:-1px;
+	top:-13px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+
+
+/*zatochki*/
+
+/*.zatochka
+{
+	position:absolute;
+	width:8px;
+	height:8px;
+	border:1px solid #ff6e00;
+}*/
+
+
+.zatochka
+{
+	position:absolute;
+	width:9px;
+	height:9px;
+	border:1px solid #63A624;
+}
+
+.zatochkaOpacityDiv
+{
+	background-color:#F7D9A7;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	width:9px;
+	height:9px;
+}
+
+.zatochkaImg{
+	width:9px;
+	height:9px;
+}
+
+.zatochka_left
+{
+	left:-11px;
+	top:28px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zatochka_left2
+{
+	left:-11px;
+	top:13px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zatochka_left3
+{
+	left:-11px;
+	top:30px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zatochka_right
+{	
+	right:-11px;
+	top:0px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zatochka_right3
+{	
+	right:-11px;
+	top:30px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zatochka_bottom
+{	
+	left:14px;
+	bottom:-14px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zatochka_bottom3
+{	
+	left:30px;
+	bottom:-11px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zatochka_top
+{	
+	left:14px;
+	top:-14px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zatochka_inner_left_bottom
+{	
+	left:0px;
+	bottom:0px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.zatochka_inner_right_bottom
+{	
+	right:0px;
+	bottom:0px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+
+
+/* Podkladki */
+
+.podkladka
+{
+	position:absolute;
+	border:1px solid #5050FF;
+}
+
+.podkladkaOpacityDiv
+{
+	background-color:#F7D9A7;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.kam_podkladka
+{
+	position:absolute;
+	width:11px;
+	height:11px;
+	border:1px solid #5050FF;
+}
+
+.podkladka_right_top
+{
+	right:-1px;
+	top:-1px;
+}
+
+.podkladka_left_top
+{
+	left:-1px;
+	top:-1px;
+}
+
+.podkladka_left_bottom
+{
+	left:-1px;
+	bottom:-1px;
+}
+.podkladka_right_bottom
+{
+	right:-1px;
+	bottom:-1px;
+}
+
+.podkladka_shl, .podkladka_pon, .podkladka_nar, .podkladka_per
+{
+	width:25px;
+	height:25px;
+	right: 1px;
+}
+
+.podkladka_amu, .podkladka_poi
+{
+	width:25px;
+	height:12px;
+	right: 1px;
+}
+.podkladka_lat, .podkladka_sht
+{
+	width:25px;
+	height:37px;
+	right: 1px;
+}
+
+.podkladka_kol
+{
+	width:15px;
+	height:15px;
+	right: 1px;
+}
+
+.podkladka_oru
+{
+	width:37px;
+	height:25px;
+	right: 1px;
+}
+
+
+/* Оружие */
+.oru .item
+{
+	width:75px;
+	height:50px;
+	display: block;
+}
+
+.oru1
+{
+	top:175px;
+	left:0px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.oru2
+{
+	top:175px;
+	left:165px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+
+/* Кольца */
+.kol .item
+{
+	width:36px;
+	height:36px;
+	display: block;
+}
+
+.kol1
+{
+	top:249px;
+	left:1px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.kol2
+{
+	top:249px;
+	left:48px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.kol3
+{
+	top:249px;
+	left:163px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.kol4
+{
+	top:249px;
+	left:210px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.kol5
+{
+	top:300px;
+	left:1px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.kol6
+{
+	top:300px;
+	left:48px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.kol7
+{
+	top:300px;
+	left:163px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.kol8
+{
+	top:300px;
+	left:210px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+
+.shl .item
+{
+	width:50px;
+	height:50px;
+	display: block;
+	z-index: 1;
+}
+.shl
+{
+	top:0px;
+	left:95px;
+	z-index: 1;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.pon
+{
+	top:305px;
+	left:95px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.pon .item
+{
+	width:50px;
+	height:50px;
+	display: block;
+}
+.nar
+{
+	top:108px;
+	left:4px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.nar .item
+{
+	width:50px;
+	height:50px;
+	display: block;
+}
+.per
+{
+	top:108px;
+	left:185px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.per .item
+{
+	width:50px;
+	height:50px;
+	display: block;
+}
+.amu1
+{
+	top:61px;
+	left:50px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.amu .item
+{
+	width:50px;
+	height:25px;
+	display: block;
+}
+.amu2
+{
+	top:61px;
+	left:135px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.poi
+{
+	top:183px;
+	left:95px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.poi .item
+{
+	width:50px;
+	height:25px;
+	display: block;
+}
+.lat
+{
+	top:97px;
+	left:95px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.lat .item
+{
+	width:50px;
+	height:75px;
+	display: block;
+}
+.sht
+{
+	top:219px;
+	left:95px;
+	background-color:#fae8c9b9;
+	opacity:0.8;
+}
+.sht .item {
+	width:50px;
+	height:75px;
+	display: block;
+}
+.but{display:none;
+}
+@media only screen and (max-device-width: 1300px) {
+.wrapper{
+	overflow: hidden; height: 100vh; position: relative;
+	}
+body.lock-position {
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+	}
+	}
+
+
+
